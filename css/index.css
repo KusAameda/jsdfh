@@ -1,0 +1,2691 @@
+[v-cloak] {
+  display: none;
+}
+section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 19;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+body {
+  -webkit-user-select: none;
+}
+.chuiCenter {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.flexVerHorizontally {
+  display: flex;
+  align-items: center;
+}
+.flexHVCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+i {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.hideop {
+  opacity: 0;
+}
+.showop {
+  opacity: 1;
+}
+@font-face {
+  font-family: puhuiti-2-65;
+  src: url('/assets/fonts/SourceHanSansCN-Regular.otf');
+  /* IE9 */
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #000;
+  font-size: 0.22rem;
+  letter-spacing: 0.04rem;
+  padding-top: 0.02rem;
+  line-height: normal;
+  text-align: center;
+}
+body {
+  font-family: '思源雅黑';
+}
+/* placeholder样式修改*/
+input.sp,
+input:disabled {
+  color: #909090 !important;
+  font-size: 0.34rem;
+  letter-spacing: 0.04rem;
+}
+section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 19;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.loading {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/loading/bg.jpg?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.loading .logo {
+  width: 100%;
+  height: 0.98rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/loading/logo.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.2rem;
+}
+.loading .line {
+  width: 100%;
+  height: 0.02rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/loading/line.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.34rem;
+}
+.loading .horse {
+  width: 100%;
+  height: 2.3rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/loading/horse.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.5rem;
+}
+.loading .text {
+  width: 100%;
+  height: 4.15rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/loading/text.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+  -webkit-mask-image: url("../images/mask.png");
+  overflow: hidden;
+  -webkit-mask-size: 100% 0;
+  animation: text_animate 3s linear forwards;
+}
+.loading .go {
+  width: 2.61rem;
+  height: 0.67rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/loading/go.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0.44rem auto 0;
+  animation-delay: 3s;
+}
+.p1 {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  overflow: hidden;
+  background-color: #001042;
+}
+.p1 .logo {
+  width: 100%;
+  height: 0.86rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p1/logo.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0.4rem;
+  left: 0rem;
+}
+.p1 .show_img {
+  width: 100%;
+  height: 5.33rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p1/box.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.82rem;
+}
+.p1 .menu {
+  width: 100%;
+  height: auto;
+  margin-top: 0.58rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.p1 .menu .menu_img {
+  width: 3.05rem;
+  height: 0.68rem;
+  margin-bottom: 0.58rem;
+}
+.p1 .menu .menu_img.menu_img1 {
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p1/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 0.48rem;
+}
+.p1 .menu .menu_img.menu_img2 {
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p1/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p1 .menu .menu_img.menu_img3 {
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p1/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 0.48rem;
+}
+.p1 .menu .menu_img.menu_img4 {
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p1/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p1 .code {
+  width: 100%;
+  height: 2.1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+}
+.p2 {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.p2 .back {
+  width: 0.68rem;
+  height: 0.68rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/back.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0.48rem;
+  left: 0.3rem;
+  z-index: 999;
+}
+.p2 .logo {
+  width: 100%;
+  height: 1.16rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/logo.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0.26rem;
+  left: 0;
+  z-index: 9;
+}
+.p2 .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.p2 .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.p2 .swiper-slide .p2_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #001042;
+}
+.p2 .swiper-slide .p2_container .show_img,
+.p2 .swiper-slide .p2_container .show_img1,
+.p2 .swiper-slide .p2_container .show_img2,
+.p2 .swiper-slide .p2_container .show_img3,
+.p2 .swiper-slide .p2_container .show_img4,
+.p2 .swiper-slide .p2_container .show_img5,
+.p2 .swiper-slide .p2_container .show_img6,
+.p2 .swiper-slide .p2_container .show_img7,
+.p2 .swiper-slide .p2_container .show_img8,
+.p2 .swiper-slide .p2_container .show_img9,
+.p2 .swiper-slide .p2_container .show_img10,
+.p2 .swiper-slide .p2_container .look_video,
+.p2 .swiper-slide .p2_container .look_video2,
+.p2 .swiper-slide .p2_container .tip {
+  opacity: 0;
+}
+.p2 .swiper-slide.swiper-slide-active .tip {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p2 .swiper-slide.swiper-slide-active .text {
+  animation: text_animate 2s linear forwards;
+}
+.p2 .swiper-slide.swiper-slide-active .show_img {
+  opacity: 1;
+  animation: flipInX 2s ease-in-out alternate;
+}
+.p2 .swiper-slide.swiper-slide-active .show_img1 {
+  opacity: 1;
+  animation: slideInRight 2s ease-in-out alternate;
+}
+.p2 .swiper-slide.swiper-slide-active .show_img2 {
+  opacity: 1;
+  animation: slideInLeft 2s ease-in-out alternate;
+}
+.p2 .swiper-slide.swiper-slide-active .show_img3 {
+  opacity: 1;
+  animation: fadeInDown 2s ease-in-out alternate;
+}
+.p2 .swiper-slide.swiper-slide-active .show_img4 {
+  opacity: 1;
+  animation: fadeInUp 2s ease-in-out alternate;
+}
+.p2 .swiper-slide.swiper-slide-active .show_img5 {
+  opacity: 1;
+  animation: slideInRight 2s ease-in-out alternate;
+}
+.p2 .swiper-slide.swiper-slide-active .show_img6 {
+  opacity: 1;
+  animation: slideInLeft 2s ease-in-out alternate;
+}
+.p2 .swiper-slide.swiper-slide-active .show_img7 {
+  opacity: 1;
+  animation: rotateIn 2s ease-in-out alternate;
+}
+.p2 .swiper-slide.swiper-slide-active .show_img8 {
+  opacity: 1;
+  animation: rotateInDownLeft 2s ease-in-out alternate;
+}
+.p2 .swiper-slide.swiper-slide-active .show_img9 {
+  opacity: 1;
+  animation: rotateInDownRight 2s ease-in-out alternate;
+}
+.p2 .swiper-slide.swiper-slide-active .show_img10 {
+  opacity: 1;
+  animation: flipInY 2s ease-in-out alternate;
+}
+.p2 .swiper-slide.swiper-slide-active .look_video {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p2 .swiper-slide.swiper-slide-active .look_video2 {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p2 .swiper-slide .p2_1 {
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/1/bg.jpg?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_1 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/1/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p2 .swiper-slide .p2_1 .text {
+  width: 100%;
+  height: 2.14rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/1/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.24rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p2 .swiper-slide .p2_1 .show_img1 {
+  width: 100%;
+  height: 3.11rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/1/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.64rem;
+}
+.p2 .swiper-slide .p2_1 .look_video {
+  width: 100%;
+  height: 1.28rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/1/5.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.84rem;
+}
+.p2 .swiper-slide .p2_13 {
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/1/bg.jpg?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p2 .swiper-slide .p2_13 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/13/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p2 .swiper-slide .p2_13 .show_img3 {
+  width: 100%;
+  height: 3.06rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/13/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.64rem;
+}
+.p2 .swiper-slide .p2_13 .look_video {
+  width: 100%;
+  height: 1.28rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/13/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.84rem;
+}
+.p2 .swiper-slide .p2_2 {
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/1/bg.jpg?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_2 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/2/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p2 .swiper-slide .p2_2 .text {
+  width: 100%;
+  height: 2.1rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/2/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.26rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p2 .swiper-slide .p2_2 .show_img2 {
+  width: 100%;
+  height: 4.79rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/2/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.62rem;
+}
+.p2 .swiper-slide .p2_2 .show_bg {
+  width: 100%;
+  height: 6.21rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/2/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p2 .swiper-slide .p2_3 {
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_3 .tip {
+  width: 100%;
+  height: 0.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p2 .swiper-slide .p2_3 .show_img1 {
+  width: 100%;
+  height: 2.32rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p2 .swiper-slide .p2_3 .show_img2 {
+  width: 100%;
+  height: 2.24rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.6rem;
+}
+.p2 .swiper-slide .p2_3 .show_img3 {
+  width: 100%;
+  height: 1.9rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.54rem;
+}
+.p2 .swiper-slide .p2_3 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p2 .swiper-slide .p2_4 {
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_4 .tip {
+  width: 100%;
+  height: 0.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p2 .swiper-slide .p2_4 .show_img5 {
+  width: 100%;
+  height: 2.62rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/4/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p2 .swiper-slide .p2_4 .show_img6 {
+  width: 100%;
+  height: 1.88rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/4/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.5rem;
+}
+.p2 .swiper-slide .p2_4 .show_img7 {
+  width: 100%;
+  height: 2.48rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/4/5.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.5rem;
+}
+.p2 .swiper-slide .p2_4 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p2 .swiper-slide .p2_5 {
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_5 .tip {
+  width: 100%;
+  height: 0.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p2 .swiper-slide .p2_5 .show_img8 {
+  width: 100%;
+  height: 2.02rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/5/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.44rem;
+}
+.p2 .swiper-slide .p2_5 .show_img9 {
+  width: 100%;
+  height: 2.04rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/5/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.48rem;
+}
+.p2 .swiper-slide .p2_5 .show_img10 {
+  width: 100%;
+  height: 2.11rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/5/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.48rem;
+}
+.p2 .swiper-slide .p2_5 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p2 .swiper-slide .p2_6 {
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_6 .tip {
+  width: 100%;
+  height: 0.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p2 .swiper-slide .p2_6 .show_img1 {
+  width: 100%;
+  height: 3.22rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/6/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.44rem;
+}
+.p2 .swiper-slide .p2_6 .show_img2 {
+  width: 100%;
+  height: 2.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/6/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.34rem;
+}
+.p2 .swiper-slide .p2_6 .show_img3 {
+  width: 100%;
+  height: 1.83rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/6/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.34rem;
+}
+.p2 .swiper-slide .p2_6 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p2 .swiper-slide .p2_7 {
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_7 .tip {
+  width: 100%;
+  height: 0.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p2 .swiper-slide .p2_7 .show_img4 {
+  width: 100%;
+  height: 2rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/7/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p2 .swiper-slide .p2_7 .show_img5 {
+  width: 100%;
+  height: 2rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/7/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p2 .swiper-slide .p2_7 .show_img6 {
+  width: 100%;
+  height: 2.16rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/7/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p2 .swiper-slide .p2_7 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p2 .swiper-slide .p2_8 {
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_8 .tip {
+  width: 100%;
+  height: 0.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p2 .swiper-slide .p2_8 .show_img7 {
+  width: 100%;
+  height: 2.06rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/8/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p2 .swiper-slide .p2_8 .show_img8 {
+  width: 100%;
+  height: 2.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/8/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p2 .swiper-slide .p2_8 .show_img9 {
+  width: 100%;
+  height: 1.82rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/8/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p2 .swiper-slide .p2_8 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p2 .swiper-slide .p2_9 {
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_9 .tip {
+  width: 100%;
+  height: 0.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p2 .swiper-slide .p2_9 .show_img10 {
+  width: 100%;
+  height: 2.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/9/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p2 .swiper-slide .p2_9 .show_img1 {
+  width: 100%;
+  height: 2.16rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/9/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p2 .swiper-slide .p2_9 .show_img2 {
+  width: 100%;
+  height: 1.68rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/9/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p2 .swiper-slide .p2_9 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p2 .swiper-slide .p2_10 {
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_10 .tip {
+  width: 100%;
+  height: 0.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p2 .swiper-slide .p2_10 .show_img3 {
+  width: 100%;
+  height: 1.2rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/10/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.44rem;
+}
+.p2 .swiper-slide .p2_10 .show_img4 {
+  width: 100%;
+  height: 1.35rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/10/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.9rem;
+}
+.p2 .swiper-slide .p2_10 .show_img5 {
+  width: 100%;
+  height: 2.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/10/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.9rem;
+}
+.p2 .swiper-slide .p2_10 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p2 .swiper-slide .p2_11 {
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_11 .tip {
+  width: 100%;
+  height: 0.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p2 .swiper-slide .p2_11 .show_img6 {
+  width: 100%;
+  height: 2.16rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/11/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.44rem;
+}
+.p2 .swiper-slide .p2_11 .show_img7 {
+  width: 100%;
+  height: 1.9rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/11/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.1rem;
+}
+.p2 .swiper-slide .p2_11 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p2 .swiper-slide .p2_12 {
+  background-size: 100% 100%;
+}
+.p2 .swiper-slide .p2_12 .tip {
+  width: 100%;
+  height: 0.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p2 .swiper-slide .p2_12 .show_img8 {
+  width: 100%;
+  height: 2.17rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/12/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p2 .swiper-slide .p2_12 .show_img9 {
+  width: 100%;
+  height: 3.26rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/12/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.7rem;
+}
+.p2 .swiper-slide .p2_12 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p2 .p2_menu {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 11.9rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.p2 .p2_menu .prev {
+  width: 0.4rem;
+  height: 0.43rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/prev.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation: left_ani 0.5s linear alternate infinite;
+}
+.p2 .p2_menu .tip {
+  width: 4.03rem;
+  height: 0.34rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/tip.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 0.34rem;
+  margin-right: 0.34rem;
+}
+.p2 .p2_menu .next {
+  width: 0.4rem;
+  height: 0.43rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/next.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation: right_ani 0.5s linear alternate infinite;
+}
+.p3 {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/bg.jpg?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.p3 .back {
+  width: 0.68rem;
+  height: 0.68rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/back.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0.48rem;
+  left: 0.3rem;
+  z-index: 999;
+}
+.p3 .logo {
+  width: 100%;
+  height: 1.16rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/logo.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0.26rem;
+  left: 0;
+  z-index: 9;
+}
+.p3 .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.p3 .swiper-slide .show_img,
+.p3 .swiper-slide .show_img1,
+.p3 .swiper-slide .show_img2,
+.p3 .swiper-slide .show_img3,
+.p3 .swiper-slide .show_img4,
+.p3 .swiper-slide .show_img5,
+.p3 .swiper-slide .show_img6,
+.p3 .swiper-slide .show_img7,
+.p3 .swiper-slide .show_img8,
+.p3 .swiper-slide .show_img9,
+.p3 .swiper-slide .show_img10,
+.p3 .swiper-slide .look_video,
+.p3 .swiper-slide .look_video2,
+.p3 .swiper-slide .tip {
+  opacity: 0;
+}
+.p3 .swiper-slide.swiper-slide-active .tip {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p3 .swiper-slide.swiper-slide-active .text {
+  animation: text_animate 2s linear forwards;
+}
+.p3 .swiper-slide.swiper-slide-active .show_img {
+  opacity: 1;
+  animation: flipInX 2s ease-in-out alternate;
+}
+.p3 .swiper-slide.swiper-slide-active .show_img1 {
+  opacity: 1;
+  animation: slideInRight 2s ease-in-out alternate;
+}
+.p3 .swiper-slide.swiper-slide-active .show_img2 {
+  opacity: 1;
+  animation: slideInLeft 2s ease-in-out alternate;
+}
+.p3 .swiper-slide.swiper-slide-active .show_img3 {
+  opacity: 1;
+  animation: fadeInDown 2s ease-in-out alternate;
+}
+.p3 .swiper-slide.swiper-slide-active .show_img4 {
+  opacity: 1;
+  animation: fadeInUp 2s ease-in-out alternate;
+}
+.p3 .swiper-slide.swiper-slide-active .show_img5 {
+  opacity: 1;
+  animation: slideInRight 2s ease-in-out alternate;
+}
+.p3 .swiper-slide.swiper-slide-active .show_img6 {
+  opacity: 1;
+  animation: slideInLeft 2s ease-in-out alternate;
+}
+.p3 .swiper-slide.swiper-slide-active .show_img7 {
+  opacity: 1;
+  animation: rotateIn 2s ease-in-out alternate;
+}
+.p3 .swiper-slide.swiper-slide-active .show_img8 {
+  opacity: 1;
+  animation: rotateInDownLeft 2s ease-in-out alternate;
+}
+.p3 .swiper-slide.swiper-slide-active .show_img9 {
+  opacity: 1;
+  animation: rotateInDownRight 2s ease-in-out alternate;
+}
+.p3 .swiper-slide.swiper-slide-active .show_img10 {
+  opacity: 1;
+  animation: flipInY 2s ease-in-out alternate;
+}
+.p3 .swiper-slide.swiper-slide-active .look_video {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p3 .swiper-slide.swiper-slide-active .look_video2 {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p3 .swiper-slide .p3_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.p3 .swiper-slide .p3_container.p3_4 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/4/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p3 .swiper-slide .p3_container.p3_4 .text {
+  width: 100%;
+  height: 1.51rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/4/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.25rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p3 .swiper-slide .p3_container.p3_4 .show_img5 {
+  width: 100%;
+  height: 3.36rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/4/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.28rem;
+}
+.p3 .swiper-slide .p3_container.p3_4 .show_img6 {
+  width: 100%;
+  height: 2.5rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/4/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p3 .swiper-slide .p3_container.p3_5 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/5/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p3 .swiper-slide .p3_container.p3_5 .text {
+  width: 100%;
+  height: 3.3rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/5/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.25rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p3 .swiper-slide .p3_container.p3_5 .show_img4 {
+  width: 100%;
+  height: 4.45rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/5/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.44rem;
+}
+.p3 .swiper-slide .p3_container.p3_5 .show_img6 {
+  width: 100%;
+  height: 2.5rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/4/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p3 .swiper-slide .p3_container.p3_6 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/6/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p3 .swiper-slide .p3_container.p3_6 .text {
+  width: 100%;
+  height: 3.3rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/6/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.25rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p3 .swiper-slide .p3_container.p3_6 .show_img3 {
+  width: 100%;
+  height: 2.63rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/6/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.44rem;
+}
+.p3 .swiper-slide .p3_container.p3_6 .show_img2 {
+  width: 100%;
+  height: 2.05rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/6/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p3 .swiper-slide .p3_container.p3_1 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/1/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p3 .swiper-slide .p3_container.p3_1 .text {
+  width: 100%;
+  height: 2.09rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/1/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.25rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p3 .swiper-slide .p3_container.p3_1 .show_img1 {
+  width: 100%;
+  height: 3.45rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/1/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.2rem;
+}
+.p3 .swiper-slide .p3_container.p3_1 .show_img2 {
+  width: 100%;
+  height: 2.5rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/1/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p3 .swiper-slide .p3_container.p3_2 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/2/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p3 .swiper-slide .p3_container.p3_2 .text {
+  width: 100%;
+  height: 1.5rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/2/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.25rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p3 .swiper-slide .p3_container.p3_2 .show_img3 {
+  width: 100%;
+  height: 3.16rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/2/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p3 .swiper-slide .p3_container.p3_2 .show_img4 {
+  width: 100%;
+  height: 2.7rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/2/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p3 .swiper-slide .p3_container.p3_3 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p3 .swiper-slide .p3_container.p3_3 .text {
+  width: 100%;
+  height: 1.5rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/3/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.25rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p3 .swiper-slide .p3_container.p3_3 .show_img5 {
+  width: 100%;
+  height: 3.63rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/3/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.64rem;
+}
+.p3 .swiper-slide .p3_container.p3_3 .show_img6 {
+  width: 100%;
+  height: 2.66rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/3/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p3 .down_icon {
+  width: 0.43rem;
+  height: 0.4rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/down.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  margin-left: -0.21rem;
+  animation: down_up_ani 0.5s linear infinite alternate;
+  z-index: 2;
+}
+.p4 {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/bg.jpg?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.p4 .back {
+  width: 0.68rem;
+  height: 0.68rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/back.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0.48rem;
+  left: 0.3rem;
+  z-index: 999;
+}
+.p4 .logo {
+  width: 100%;
+  height: 1.16rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/logo.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0.26rem;
+  left: 0;
+  z-index: 9;
+}
+.p4 .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.p4 .swiper-slide .show_img,
+.p4 .swiper-slide .show_img1,
+.p4 .swiper-slide .show_img2,
+.p4 .swiper-slide .show_img3,
+.p4 .swiper-slide .show_img4,
+.p4 .swiper-slide .show_img5,
+.p4 .swiper-slide .show_img6,
+.p4 .swiper-slide .show_img7,
+.p4 .swiper-slide .show_img8,
+.p4 .swiper-slide .show_img9,
+.p4 .swiper-slide .show_img10,
+.p4 .swiper-slide .look_video,
+.p4 .swiper-slide .look_video2,
+.p4 .swiper-slide .tip {
+  opacity: 0;
+}
+.p4 .swiper-slide.swiper-slide-active .tip {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p4 .swiper-slide.swiper-slide-active .text {
+  animation: text_animate 2s linear forwards;
+}
+.p4 .swiper-slide.swiper-slide-active .show_img {
+  opacity: 1;
+  animation: flipInX 2s ease-in-out alternate;
+}
+.p4 .swiper-slide.swiper-slide-active .show_img1 {
+  opacity: 1;
+  animation: slideInRight 2s ease-in-out alternate;
+}
+.p4 .swiper-slide.swiper-slide-active .show_img2 {
+  opacity: 1;
+  animation: slideInLeft 2s ease-in-out alternate;
+}
+.p4 .swiper-slide.swiper-slide-active .show_img3 {
+  opacity: 1;
+  animation: fadeInDown 2s ease-in-out alternate;
+}
+.p4 .swiper-slide.swiper-slide-active .show_img4 {
+  opacity: 1;
+  animation: fadeInUp 2s ease-in-out alternate;
+}
+.p4 .swiper-slide.swiper-slide-active .show_img5 {
+  opacity: 1;
+  animation: slideInRight 2s ease-in-out alternate;
+}
+.p4 .swiper-slide.swiper-slide-active .show_img6 {
+  opacity: 1;
+  animation: slideInLeft 2s ease-in-out alternate;
+}
+.p4 .swiper-slide.swiper-slide-active .show_img7 {
+  opacity: 1;
+  animation: rotateIn 2s ease-in-out alternate;
+}
+.p4 .swiper-slide.swiper-slide-active .show_img8 {
+  opacity: 1;
+  animation: rotateInDownLeft 2s ease-in-out alternate;
+}
+.p4 .swiper-slide.swiper-slide-active .show_img9 {
+  opacity: 1;
+  animation: rotateInDownRight 2s ease-in-out alternate;
+}
+.p4 .swiper-slide.swiper-slide-active .show_img10 {
+  opacity: 1;
+  animation: flipInY 2s ease-in-out alternate;
+}
+.p4 .swiper-slide.swiper-slide-active .look_video {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p4 .swiper-slide.swiper-slide-active .look_video2 {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p4 .swiper-slide .p4_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.p4 .swiper-slide .p4_container.p4_1 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/1/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p4 .swiper-slide .p4_container.p4_1 .text {
+  width: 100%;
+  height: 7.5rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/1/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.54rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p4 .swiper-slide .p4_container.p4_1 .show_bg {
+  width: 100%;
+  height: 12.57rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/1/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p4 .swiper-slide .p4_container.p4_1_2 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/1_2/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p4 .swiper-slide .p4_container.p4_1_2 .text {
+  width: 100%;
+  height: 4.38rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/1_2/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.54rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p4 .swiper-slide .p4_container.p4_1_2 .show_bg {
+  width: 100%;
+  height: 12.57rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/1/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p4 .swiper-slide .p4_container.p4_2 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/2/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p4 .swiper-slide .p4_container.p4_2 .text {
+  width: 100%;
+  height: 2.7rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/2/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.25rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p4 .swiper-slide .p4_container.p4_2 .show_img1 {
+  width: 100%;
+  height: 2.35rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/2/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.68rem;
+}
+.p4 .swiper-slide .p4_container.p4_2 .show_img2 {
+  width: 100%;
+  height: 3.48rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/2/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.2rem;
+}
+.p4 .swiper-slide .p4_container.p4_2 .show_bg {
+  width: 100%;
+  height: 8.3rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/2/5.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p4 .swiper-slide .p4_container.p4_3 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p4 .swiper-slide .p4_container.p4_3 .text {
+  width: 100%;
+  height: 1.54rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/3/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.25rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p4 .swiper-slide .p4_container.p4_3 .show_img3 {
+  width: 100%;
+  height: 3.15rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/3/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.72rem;
+}
+.p4 .swiper-slide .p4_container.p4_3 .show_img4 {
+  width: 100%;
+  height: 3.04rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/3/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p4 .swiper-slide .p4_container.p4_3 .show_bg {
+  width: 100%;
+  height: 13.34rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/3/5.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p4 .swiper-slide .p4_container.p4_4 .tip {
+  width: 100%;
+  height: 0.57rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/4/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p4 .swiper-slide .p4_container.p4_4 .text {
+  width: 100%;
+  height: 1.5rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/4/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.25rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p4 .swiper-slide .p4_container.p4_4 .show_img6 {
+  width: 100%;
+  height: 2.31rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/4/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.65rem;
+}
+.p4 .swiper-slide .p4_container.p4_4 .show_img5 {
+  width: 100%;
+  height: 4.25rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/4/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p4 .swiper-slide .p4_container.p4_4 .show_bg {
+  width: 100%;
+  height: 13.34rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/4/5.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p4 .swiper-slide .p4_container.p4_5 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/5/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p4 .swiper-slide .p4_container.p4_5 .text {
+  width: 100%;
+  height: 2.1rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/5/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.25rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p4 .swiper-slide .p4_container.p4_5 .show_img4 {
+  width: 100%;
+  height: 3.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/5/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.44rem;
+}
+.p4 .swiper-slide .p4_container.p4_5 .show_img3 {
+  width: 100%;
+  height: 3.34rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/5/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p4 .swiper-slide .p4_container.p4_5 .show_bg {
+  width: 100%;
+  height: 13.34rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/5/5.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p4 .swiper-slide .p4_container.p4_6 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/6/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p4 .swiper-slide .p4_container.p4_6 .text {
+  width: 100%;
+  height: 2.69rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/6/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.25rem;
+  -webkit-mask-image: url('../images/mask.png');
+  -webkit-mask-size: 100% 100%;
+  overflow: hidden;
+}
+.p4 .swiper-slide .p4_container.p4_6 .show_img3 {
+  width: 100%;
+  height: 4.83rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/6/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.5rem;
+}
+.p4 .swiper-slide .p4_container.p4_7 .tip {
+  width: 100%;
+  height: 0.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/7/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p4 .swiper-slide .p4_container.p4_7 .show_img1 {
+  width: 100%;
+  height: 3.11rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/7/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.64rem;
+}
+.p4 .swiper-slide .p4_container.p4_7 .look_video {
+  width: 100%;
+  height: 1.28rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p4/7/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.84rem;
+}
+.p4 .down_icon {
+  width: 0.43rem;
+  height: 0.4rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p3/down.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  margin-left: -0.21rem;
+  animation: down_up_ani 0.5s linear infinite alternate;
+  z-index: 2;
+}
+.p5 {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.p5 .back {
+  width: 0.68rem;
+  height: 0.68rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/back.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0.48rem;
+  left: 0.3rem;
+  z-index: 999;
+}
+.p5 .logo {
+  width: 100%;
+  height: 1.16rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/logo.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0.26rem;
+  left: 0;
+  z-index: 9;
+}
+.p5 .tip1 {
+  width: 100%;
+  height: 0.6rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  z-index: 9999;
+}
+.p5 .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.p5 .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.p5 .swiper-slide .p2_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #001042;
+}
+.p5 .swiper-slide .p2_container .show_img,
+.p5 .swiper-slide .p2_container .show_img1,
+.p5 .swiper-slide .p2_container .show_img2,
+.p5 .swiper-slide .p2_container .show_img3,
+.p5 .swiper-slide .p2_container .show_img4,
+.p5 .swiper-slide .p2_container .show_img5,
+.p5 .swiper-slide .p2_container .show_img6,
+.p5 .swiper-slide .p2_container .show_img7,
+.p5 .swiper-slide .p2_container .show_img8,
+.p5 .swiper-slide .p2_container .show_img9,
+.p5 .swiper-slide .p2_container .show_img10,
+.p5 .swiper-slide .p2_container .look_video,
+.p5 .swiper-slide .p2_container .look_video2 {
+  opacity: 0;
+}
+.p5 .swiper-slide.swiper-slide-active .p2_3 .tip {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p5 .swiper-slide.swiper-slide-active .text {
+  animation: text_animate 2s linear forwards;
+}
+.p5 .swiper-slide.swiper-slide-active .show_img {
+  opacity: 1;
+  animation: flipInX 2s ease-in-out alternate;
+}
+.p5 .swiper-slide.swiper-slide-active .show_img1 {
+  opacity: 1;
+  animation: slideInRight 2s ease-in-out alternate;
+}
+.p5 .swiper-slide.swiper-slide-active .show_img2 {
+  opacity: 1;
+  animation: slideInLeft 2s ease-in-out alternate;
+}
+.p5 .swiper-slide.swiper-slide-active .show_img3 {
+  opacity: 1;
+  animation: fadeInDown 2s ease-in-out alternate;
+}
+.p5 .swiper-slide.swiper-slide-active .show_img4 {
+  opacity: 1;
+  animation: fadeInUp 2s ease-in-out alternate;
+}
+.p5 .swiper-slide.swiper-slide-active .show_img5 {
+  opacity: 1;
+  animation: slideInRight 2s ease-in-out alternate;
+}
+.p5 .swiper-slide.swiper-slide-active .show_img6 {
+  opacity: 1;
+  animation: slideInLeft 2s ease-in-out alternate;
+}
+.p5 .swiper-slide.swiper-slide-active .show_img7 {
+  opacity: 1;
+  animation: rotateIn 2s ease-in-out alternate;
+}
+.p5 .swiper-slide.swiper-slide-active .show_img8 {
+  opacity: 1;
+  animation: rotateInDownLeft 2s ease-in-out alternate;
+}
+.p5 .swiper-slide.swiper-slide-active .show_img9 {
+  opacity: 1;
+  animation: rotateInDownRight 2s ease-in-out alternate;
+}
+.p5 .swiper-slide.swiper-slide-active .show_img10 {
+  opacity: 1;
+  animation: flipInY 2s ease-in-out alternate;
+}
+.p5 .swiper-slide.swiper-slide-active .look_video {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p5 .swiper-slide.swiper-slide-active .look_video2 {
+  animation: scal_ani 2s ease-in-out forwards;
+}
+.p5 .swiper-slide .p2_3 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_3 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p5 .swiper-slide .p2_3 .show_img1 {
+  width: 100%;
+  height: 2.25rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p5 .swiper-slide .p2_3 .show_img2 {
+  width: 100%;
+  height: 2.24rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.6rem;
+}
+.p5 .swiper-slide .p2_3 .show_img3 {
+  width: 100%;
+  height: 2.04rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.54rem;
+}
+.p5 .swiper-slide .p2_3 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .swiper-slide .p2_4 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_4 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p5 .swiper-slide .p2_4 .show_img4 {
+  width: 100%;
+  height: 2.62rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/4/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p5 .swiper-slide .p2_4 .show_img5 {
+  width: 100%;
+  height: 1.8rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/4/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.5rem;
+}
+.p5 .swiper-slide .p2_4 .show_img6 {
+  width: 100%;
+  height: 2.46rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/4/5.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.5rem;
+}
+.p5 .swiper-slide .p2_4 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .swiper-slide .p2_5 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_5 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p5 .swiper-slide .p2_5 .show_img1 {
+  width: 100%;
+  height: 2.02rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/5/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p5 .swiper-slide .p2_5 .show_img2 {
+  width: 100%;
+  height: 2.25rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/5/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.56rem;
+}
+.p5 .swiper-slide .p2_5 .show_img3 {
+  width: 100%;
+  height: 2.73rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/5/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.55rem;
+}
+.p5 .swiper-slide .p2_5 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .swiper-slide .p2_6 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_6 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p5 .swiper-slide .p2_6 .show_img3 {
+  width: 100%;
+  height: 2.64rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/6/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p5 .swiper-slide .p2_6 .show_img4 {
+  width: 100%;
+  height: 3.21rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/6/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.3rem;
+}
+.p5 .swiper-slide .p2_6 .show_img5 {
+  width: 100%;
+  height: 1.83rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/6/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.3rem;
+}
+.p5 .swiper-slide .p2_6 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .swiper-slide .p2_7 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_7 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p5 .swiper-slide .p2_7 .show_img4 {
+  width: 100%;
+  height: 2.49rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/7/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p5 .swiper-slide .p2_7 .show_img5 {
+  width: 100%;
+  height: 2.25rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/7/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p5 .swiper-slide .p2_7 .show_img6 {
+  width: 100%;
+  height: 2.25rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/7/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p5 .swiper-slide .p2_7 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .swiper-slide .p2_8 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_8 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p5 .swiper-slide .p2_8 .show_img1 {
+  width: 100%;
+  height: 2.25rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/8/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p5 .swiper-slide .p2_8 .show_img2 {
+  width: 100%;
+  height: 3.23rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/8/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.36rem;
+}
+.p5 .swiper-slide .p2_8 .show_img3 {
+  width: 100%;
+  height: 1.82rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/8/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.38rem;
+}
+.p5 .swiper-slide .p2_8 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .swiper-slide .p2_9 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_9 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p5 .swiper-slide .p2_9 .show_img4 {
+  width: 100%;
+  height: 3.96rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/9/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p5 .swiper-slide .p2_9 .show_img5 {
+  width: 100%;
+  height: 2.61rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/9/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.4rem;
+}
+.p5 .swiper-slide .p2_9 .show_img6 {
+  width: 100%;
+  height: 1.68rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/9/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.7rem;
+}
+.p5 .swiper-slide .p2_9 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .swiper-slide .p2_10 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_10 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p5 .swiper-slide .p2_10 .show_img3 {
+  width: 100%;
+  height: 2.13rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/10/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p5 .swiper-slide .p2_10 .show_img4 {
+  width: 100%;
+  height: 1.77rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/10/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.72rem;
+}
+.p5 .swiper-slide .p2_10 .show_img5 {
+  width: 100%;
+  height: 2.25rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/10/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.74rem;
+}
+.p5 .swiper-slide .p2_10 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .swiper-slide .p2_11 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_11 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.86rem;
+}
+.p5 .swiper-slide .p2_11 .show_img6 {
+  width: 100%;
+  height: 3.69rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/11/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.42rem;
+}
+.p5 .swiper-slide .p2_11 .show_img5 {
+  width: 100%;
+  height: 2.73rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/11/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.8rem;
+}
+.p5 .swiper-slide .p2_11 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .swiper-slide .p2_12 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_12 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p5 .swiper-slide .p2_12 .show_img1 {
+  width: 100%;
+  height: 2.25rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/12/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.44rem;
+}
+.p5 .swiper-slide .p2_12 .show_img2 {
+  width: 100%;
+  height: 4.16rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/12/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.5rem;
+}
+.p5 .swiper-slide .p2_12 .show_img3 {
+  width: 100%;
+  height: 2.68rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/12/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.5rem;
+}
+.p5 .swiper-slide .p2_12 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .swiper-slide .p2_13 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_13 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p5 .swiper-slide .p2_13 .show_img1 {
+  width: 100%;
+  height: 3.68rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/12/4.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.44rem;
+}
+.p5 .swiper-slide .p2_13 .show_img2 {
+  width: 100%;
+  height: 2.72rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/12/5.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.5rem;
+}
+.p5 .swiper-slide .p2_13 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .swiper-slide .p2_14 {
+  background-size: 100% 100%;
+}
+.p5 .swiper-slide .p2_14 .tip {
+  width: 100%;
+  height: 0.65rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.9rem;
+}
+.p5 .swiper-slide .p2_14 .show_img3 {
+  width: 100%;
+  height: 2.57rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/13_1/1.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.44rem;
+}
+.p5 .swiper-slide .p2_14 .show_img4 {
+  width: 100%;
+  height: 2.12rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/13_1/2.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.44rem;
+}
+.p5 .swiper-slide .p2_14 .show_img5 {
+  width: 100%;
+  height: 2.57rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/13_1/3.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.46rem;
+}
+.p5 .swiper-slide .p2_14 .show_bg {
+  width: 100%;
+  height: 4.19rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/content/3/bg.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+}
+.p5 .down {
+  width: 0.43rem;
+  height: 0.4rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/p2/down.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  margin-left: -0.21rem;
+  animation: down_up_ani 0.5s linear infinite alternate;
+  z-index: 2;
+}
+.video_mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+}
+.video_mask .close_video {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-image: url('https://cdn.omnimkt.com/hkjc/images/close_video.png?v=4');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.video_mask .video_box {
+  width: 100%;
+  height: 4.24rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video_mask .video_box video {
+  width: 100%;
+  height: 100%;
+}
+@keyframes text_animate {
+  0% {
+    -webkit-mask-size: 100% 0%;
+  }
+  100% {
+    -webkit-mask-size: 100% 100%;
+  }
+}
+@keyframes left_ani {
+  0% {
+    transform: translateX(-0.1rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}
+@keyframes right_ani {
+  0% {
+    transform: translateX(0.1rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}
+@keyframes down_up_ani {
+  0% {
+    transform: translateY(0.1rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}
+@keyframes opacity_ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes scal_ani {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes bounceInRight {
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes bounceInLeft {
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes bounceInUp {
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+article.screen159 .p1 .show_img {
+  margin-top: 1.32rem;
+}
+article.screen159 .p1 .menu {
+  margin-top: 0.28rem;
+}
+article.screen159 .p1 .code {
+  bottom: 0.5rem;
+}
+article.screen159 .p2 .p2_menu {
+  top: 11.2rem;
+}
+article.screen159 .p2 .swiper-slide .p2_13 .show_img3 {
+  margin-top: 0.14rem;
+}
+article.screen159 .p2 .swiper-slide .p2_13 .look_video {
+  margin-top: 0.14rem;
+}
+article.screen159 .p2 .swiper-slide .p2_13 .look_video2 {
+  margin-top: 0.14rem;
+}
+article.screen159 .p3 .down_icon {
+  bottom: 0.5rem;
+}
+article.screen159 .p4 .down_icon {
+  bottom: 0.5rem;
+}

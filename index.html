@@ -505,13 +505,24 @@
         <div class="video_mask hide">
             <i class="close_video"></i>
             <view class="video_box">
-                <video src="./video/4.mp4" id="video1" class="kvVideo hide"
-                    preload="auto" x-webkit-airplay="true" webkit-playsinline="true" playsinline=""
-                    x5-video-player-type="h5" x5-video-player-fullscreen="true" poster="" controls></video>
+            <video 
+            id="id=video1" class="kvVideo hide" preload="auto"
+            x-webkit-airplay="true" webkit-playsinline="true" playsinline="" x5-video-player-type="h5"
+            x5-video-player-fullscreen="true" poster="" controls></video>
 
-                <video src="./video/1.mp4" id="video2" class="kvVideo hide" preload="auto"
-                    x-webkit-airplay="true" webkit-playsinline="true" playsinline="" x5-video-player-type="h5"
-                    x5-video-player-fullscreen="true" poster="" controls></video>
+
+            <video 
+            id="id=video2" class="kvVideo hide" preload="auto"
+            x-webkit-airplay="true" webkit-playsinline="true" playsinline="" x5-video-player-type="h5"
+            x5-video-player-fullscreen="true" poster="" controls></video>
+            <script src='//player.polyv.net/script/player.js'></script>
+            <div id='plv_65b692415b6280e6151cf4a3f40e7581_6'></div>
+            <script>
+            var player = polyvPlayer({
+            'wrap':'#plv_65b692415b6280e6151cf4a3f40e7581_6',
+            'width':'600',
+            'height':'338',
+            'vid': '65b692415b6280e6151cf4a3f40e7581_6', 'forceH5':true});</script>
             </view>
         </div>
 

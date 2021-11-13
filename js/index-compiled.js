@@ -29,7 +29,7 @@ $(document).ready(function () {
 	function load_handler() {
 		var loader = new PxLoader();
 		var random = 2;
-		var obj = "https://hitarget.com/";
+		var obj = "";
 		loader.addImage(obj + 'images/common/turn_phone.png?v=' + random);
 		loader.addImage(obj + 'images/loading/bg.jpg?v=' + random);
 		loader.addImage(obj + 'images/loading/horse.png?v=' + random);

@@ -94,7 +94,7 @@ aside {
 .loading {
   width: 100%;
   height: 100%;
-  background-image: url('http://m.rerun.ltd/images/loading/bg.jpg?v=4');
+  background-image: url('http://m.rerun.ltd/images/loading/bg.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center center;

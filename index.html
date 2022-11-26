@@ -4,8 +4,7 @@
 <head>
     <title></title>
     <meta charset="utf-8">
-    <meta name="viewport"
-        content="width=device-width,target-densitydpi=device-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width,target-densitydpi=device-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no" />
     <meta name="format-detection" content="email=no" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
@@ -19,12 +18,15 @@
     <script src="js/base/jquery.js"></script>
     <script src="js/base/share.js?v=3"></script>
     <script>
-        ibase.init({ dir: 'portrait', lock: true });
-        ibase.load('css/index.css');//无缓存加载文件
+        ibase.init({
+            dir: 'portrait',
+            lock: true
+        });
+        ibase.load('css/index.css'); //无缓存加载文件
     </script>
     <script>
         var _hmt = _hmt || [];
-        (function () {
+        (function() {
             var hm = document.createElement("script");
             hm.src = "https://hm.baidu.com/hm.js?da40eb03576d15360894b0651bdfc5fc";
             var s = document.getElementsByTagName("script")[0];
@@ -261,6 +263,7 @@
                             <i class="text"></i>
                             <i class="show_img5"></i>
                             <i class="show_img6"></i>
+                            <i class="show_img4"></i>
                         </div>
                     </div>
 
@@ -505,12 +508,8 @@
         <div class="video_mask hide">
             <i class="close_video"></i>
             <view class="video_box">
-                <video src="http://m.rerun.ltd/4.mp4" id="video1" class="kvVideo hide"
-                    preload="auto" x-webkit-airplay="true" webkit-playsinline="true" playsinline=""
-                    x5-video-player-type="h5" x5-video-player-fullscreen="true" poster="" controls></video>
-                <video src="http://m.rerun.ltd/1.mp4" id="video2" class="kvVideo hide" preload="auto"
-                    x-webkit-airplay="true" webkit-playsinline="true" playsinline="" x5-video-player-type="h5"
-                    x5-video-player-fullscreen="true" poster="" controls></video>
+                <video src="http://m.rerun.ltd/4.mp4" id="video1" class="kvVideo hide" preload="auto" x-webkit-airplay="true" webkit-playsinline="true" playsinline="" x5-video-player-type="h5" x5-video-player-fullscreen="true" poster="" controls></video>
+                <video src="http://m.rerun.ltd/1.mp4" id="video2" class="kvVideo hide" preload="auto" x-webkit-airplay="true" webkit-playsinline="true" playsinline="" x5-video-player-type="h5" x5-video-player-fullscreen="true" poster="" controls></video>
             </view>
         </div>
 

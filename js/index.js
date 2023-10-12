@@ -37,7 +37,7 @@ $(document).ready(function () {
 	function load_handler() {
 		var loader = new PxLoader();
 		let random = 4;
-		var obj = "https://hitarget.online/";
+		var obj = "http://hitarget.online/";
 		loader.addImage(obj + 'images/common/turn_phone.png?v=' + random);
 		loader.addImage(obj + 'images/loading/bg.jpg?v=' + random);
 		loader.addImage(obj + 'images/loading/horse.png?v=' + random);
